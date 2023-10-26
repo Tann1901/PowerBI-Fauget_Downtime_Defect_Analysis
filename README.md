@@ -36,7 +36,6 @@ Filter time frame in 2022
 
 SQL: CHECK UNIFORMITY
 Join tables to determine the accuracy and reasonableness of metrics tables before putting them into use
-![image](https://github.com/Tann1901/PowerBI-Fauget_Downtime_Defect_Analysis/assets/108020327/1bb0a38f-0e96-46a3-9be2-02735c97d15a)
 ![image](https://github.com/Tann1901/PowerBI-Fauget_Downtime_Defect_Analysis/assets/108020327/5f21caf4-ed39-4665-8e52-ba74c7dd55e7)
 ![image](https://github.com/Tann1901/PowerBI-Fauget_Downtime_Defect_Analysis/assets/108020327/bcc52371-d806-4760-be5f-141814a16aea)
 
