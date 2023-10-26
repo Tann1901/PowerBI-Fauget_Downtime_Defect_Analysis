@@ -20,11 +20,15 @@ DATASET incude:
 -Metrics (> 1000 rows)
 ## III. DATA WRANGLING
 UPDATE & COMBINING
+
 EXCEL: COMBINE DATASET INTO COST
+
 Import more information about loss prices to get a realistic and accurate view of the data
 
 CLEANING
+
 EXCEL: BRIEF VISUAL DATA CHECK
+
 Check and eliminate duplicate data lines (duplicates)
 Identify and remove NULL data lines.
 Identify unnecessary columns and remove them.
@@ -33,13 +37,16 @@ Use Filter to check spelling and edit with `Find & Replace`.
 Filter time frame in 2022
 
 SQL: CHECK UNIFORMITY
+
 Join tables to determine the accuracy and reasonableness of metrics tables before putting them into use
 ![image](https://github.com/Tann1901/PowerBI-Fauget_Downtime_Defect_Analysis/assets/108020327/1bb0a38f-0e96-46a3-9be2-02735c97d15a)
 ![image](https://github.com/Tann1901/PowerBI-Fauget_Downtime_Defect_Analysis/assets/108020327/5f21caf4-ed39-4665-8e52-ba74c7dd55e7)
 ![image](https://github.com/Tann1901/PowerBI-Fauget_Downtime_Defect_Analysis/assets/108020327/bcc52371-d806-4760-be5f-141814a16aea)
 
 CONFIRM DATA TYPE 
+
 POWER BI: VISUALIZE DATA
+
 Model View
 ![image](https://github.com/Tann1901/PowerBI-Fauget_Downtime_Defect_Analysis/assets/108020327/d516d9ca-481c-417a-acd1-0366749a22a3)
 
@@ -50,7 +57,9 @@ Transform data for map
 ![image](https://github.com/Tann1901/PowerBI-Fauget_Downtime_Defect_Analysis/assets/108020327/292824c1-1da3-499d-8bb0-1ce3ea01a907)
 
 ## IV. DATA VISUALIZATION, INSIGHTS AND SUGGESTIONS
+
 ![image](https://github.com/Tann1901/PowerBI-Fauget_Downtime_Defect_Analysis/assets/108020327/da85e3c8-b235-42f8-8e03-f3f8b0bc2a6f)
+
 ANALYZE DEFECT
 
 The most significant proportion of product defects, comprising 38.73% of the total, results in errors that impact the group's revenue, leading to damage and compensation issues in customer contracts. Following closely are product errors that customers refuse to return, and the lowest proportion, at 26.87%, relates to low-impact errors. These low-impact errors may be accepted by customers but still cause damage within the production facility, resulting in increased repair time, labor costs, and strain on interdepartmental relationships.
@@ -68,6 +77,7 @@ Furthermore, the factory must focus on resolving errors that lead to substantial
 On the supplier side, suppliers should take particular care to ensure the quality of the materials they provide before delivering them to customers like the Fauget Group.
 
 ![image](https://github.com/Tann1901/PowerBI-Fauget_Downtime_Defect_Analysis/assets/108020327/e066c76d-b5bb-40b4-9b7a-98d03f1eb20e)
+
 ANALYZE DOWNTIME
 
 Machine downtime refers to the hours during which production lines come to a halt due to errors in the manufacturing process, as mentioned in the previous slide. The downtime associated with different materials used shows that the use of materials such as cardboard boxes, thin wood boxes, hard drives, or motors tends to result in more errors and the longest periods of machine downtime. Additionally, when producing products for industries supplying raw materials, services, and mechanics, the downtime is also prominently high, as indicated in the analytical chart. This highlights the interplay between industries and the materials used in their respective product lines.
@@ -81,6 +91,7 @@ SOLUTION SUGGESTED
 =>Record the high peak months of machine downtime and work with relevant departments to identify the causes (both objective and subjective factors, such as increased orders in certain months, machinery malfunctions, labor errors, low material supply, disease outbreaks, etc.).
 
 ![image](https://github.com/Tann1901/PowerBI-Fauget_Downtime_Defect_Analysis/assets/108020327/6533cfab-7d68-459b-ab6f-24d20f7edb22)
+
 ANALYZE DOWNTIME LEADING DEFECT COST
 
 It is evident that the extent of damage is most significantly influenced by customer-rejected errors, accounting for $26.53 million, followed by errors affecting final revenue, with errors having no impact coming in last.
@@ -94,6 +105,7 @@ SOLUTION SUGGESTED
 3. Provide training and ensure strict oversight of the Quality Control (QC) department, tightly monitoring the product output process to minimize losses resulting from rejected deliveries or compensation for orders.
 
 ![image](https://github.com/Tann1901/PowerBI-Fauget_Downtime_Defect_Analysis/assets/108020327/8b42301e-b342-4d62-8c0b-19c9a18fd380)
+
 ANALYZE PLANT
 
 From the list of factories within the conglomerate, let's identify the top 5 factories that produce a high number of products leading to rejected deliveries and the top 5 factories that produce products with the most severe defects.
@@ -117,6 +129,7 @@ SOLUTION SUGGESTED
 The conglomerate should consider reevaluating their collaboration with these suppliers that are responsible for errors affecting revenue and rejections to reduce machine downtime and enhance the overall supply performance of these suppliers. Additionally, negotiations can be undertaken to potentially renegotiate material procurement prices from these suppliers while also revising supply contracts to tightly control the quality of incoming materials.
 
 ## V. CONCLUSIONS
+
 **External Suggestions:**
 
 1. Implement a Supplier Scoring Process: Develop a supplier performance scoring system to assess and monitor the reliability, quality, and delivery capabilities of your suppliers. This will help in making informed decisions about supplier relationships and identifying areas for improvement.
