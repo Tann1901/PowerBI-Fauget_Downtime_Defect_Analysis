@@ -7,7 +7,7 @@ In response to these challenges, it is imperative for the Fauget Group to conduc
 ## II. DATASETS
 ![image](https://github.com/Tann1901/PowerBI-Fauget_Downtime_Defect_Analysis/assets/108020327/18d6666a-4a64-49ac-a591-af8cdfdd20e6)
 DATASET incude:
-8 dimension tables:
+**8 dimension tables:**
 -Date
 -Material
 -Vendor
@@ -16,14 +16,12 @@ DATASET incude:
 -Defect
 -Defect_rating
 -Category
-
- 1 Fact Table:
+** 1 Fact Table:**
 -Metrics (> 1000 rows)
 ## III. DATA WRANGLING
 UPDATE & COMBINING
 EXCEL: COMBINE DATASET INTO COST
 Import more information about loss prices to get a realistic and accurate view of the data
-![image](https://github.com/Tann1901/PowerBI-Fauget_Downtime_Defect_Analysis/assets/108020327/9dc01d1b-b19f-4b11-b8b7-9080ed035380)
 
 CLEANING
 EXCEL: BRIEF VISUAL DATA CHECK
